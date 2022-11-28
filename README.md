@@ -40,9 +40,9 @@ You can run ```train.py``` directly.
 1) ``train.py``: Execute this file to train the model 
 2) ``args.py``: Image and model parameters setting 
 3) ``config.py``: Hyperparameters setting
-4) ``model/``: Architecture of Invertible Neural Networks and pre-trained model parameters
+4) ``model/``: Architecture of Invertible Neural Networks
 5) ``modules/``: Architecture of ACBs
-6) ``modelsave/``: Final parameters will save in this repository
+6) ``pretrained/``: Pre-trained model parameters
 
 ## Acknowledgement
 
