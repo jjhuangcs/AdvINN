@@ -40,7 +40,7 @@ You can run ```train.py``` directly.
 If you find this code and data useful, please consider citing the original work by authors:
 
 ```
-@inproceedings{huang2021linn,
+@inproceedings{Chen2023AdvINN,
   author={Chen, Zihan and Wang, Ziyue and Huang, Jun-Jie and Zhao, Wentao and Liu, Xiao and Guan, Dejian},
   title={Imperceptible Adversarial Attack via Invertible Neural Networks},
   booktitle={Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI)}, 
