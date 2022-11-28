@@ -2,8 +2,10 @@
 We provide code and our dataset for the Paper:
 
 <!--!**[Imperceptible Adversarial Attack via Invertible Neural Networks](#)**\-->
-Zihan Chen, Ziyue Wang, Jun-Jie Huang, Wentao Zhao, Xiao Liu, and Dejian Guan\
-[AAAI 2023]
+
+Zihan Chen#(chenzihan21@nudt.edu.cn), Ziyue Wang#, [Jun-Jie Huang](https://jjhuangcs.github.io/) (jjhuang@nudt.edu.cn), Wentao Zhao, Xiao Liu, and Dejian Guan (#equal contribution, * corresponding author)
+
+Pytorch implementation for "Imperceptible Adversarial Attack via Invertible Neural Networks" (AAAI'2023).
 
 <img src='imgs/AdvINN_overview.png'/>
 
@@ -18,9 +20,8 @@ Adding perturbations via utilizing auxiliary gradient information or discarding 
 
 ## Requisites
 
-* PyTorch
-  Use the instructions that are outlined on [PyTorch Homepage](http://pytorch.org/docs/master) for installing PyTorch for your operating system
-* Python 3
+* PyTorch>=1.0
+* Python3
 * NVIDIA GPU + CUDA CuDNN
 
 
