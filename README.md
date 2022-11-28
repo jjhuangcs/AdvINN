@@ -1,6 +1,6 @@
 # Imperceptible Adversarial Attack via Invertible Neural Networks
 
-Zihan Chen#(chenzihan21@nudt.edu.cn), Ziyue Wang#, [Jun-Jie Huang *](https://jjhuangcs.github.io/) (jjhuang@nudt.edu.cn), Wentao Zhao, Xiao Liu, and Dejian Guan (#equal contribution, *corresponding author)
+Zihan Chen#(chenzihan21@nudt.edu.cn), Ziyue Wang#, [Jun-Jie Huang*](https://jjhuangcs.github.io/) (jjhuang@nudt.edu.cn), Wentao Zhao, Xiao Liu, and Dejian Guan (#equal contribution, *corresponding author)
 
 Pytorch implementation for "Imperceptible Adversarial Attack via Invertible Neural Networks" (AAAI'2023).
 
