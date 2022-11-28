@@ -17,14 +17,11 @@ Adding perturbations via utilizing auxiliary gradient information or discarding 
 <img src='imgs/results_on_imagenet.png'/>
 
 
-
 ## Requisites
 
 * PyTorch>=1.0
 * Python3
 * NVIDIA GPU + CUDA CuDNN
-
-
 
 ### Train
 
@@ -45,17 +42,19 @@ You can run ```train.py``` directly.
 5) ``modules/``: Architecture of ACBs
 6) ``pretrained/``: Pre-trained model parameters
 
-## Acknowledgement
-
-Our code architecture  is inspired by [DeepMIH](https://github.com/TomTomTommi/DeepMIH).
-
-
 
 ## Citation
 
 If you find this code and data useful, please consider citing the original work by authors:
 
 ```
+@inproceedings{huang2021linn,
+  author={Chen, Zihan and Wang, Ziyue and Huang, Jun-Jie and Zhao, Wentao and Liu, Xiao and Guan, Dejian},
+  title={Imperceptible Adversarial Attack via Invertible Neural Networks},
+  booktitle={Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI)}, 
+  year={2023},
+  pages={},
+  organization={AAAI},
+  doi={}
+}
 ```
-
-Feel free to contact: chenzihan21@nudt.edu.cn
