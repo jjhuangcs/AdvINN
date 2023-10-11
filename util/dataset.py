@@ -34,6 +34,7 @@ class Dataset(Dataset):
         return len(self.files)
 
 transform = T.Compose([
+    T.Resize((224, 224)),
     T.ToTensor(),
 ])
 
