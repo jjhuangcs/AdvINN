@@ -40,12 +40,6 @@ class_idx = json.load(open("./util/imagenet_class_index.json"))
 idx2label = [class_idx[str(k)][1] for k in range(len(class_idx))]
 class2label = [class_idx[str(k)][0] for k in range(len(class_idx))]
 
-transform = transforms.Compose([
-    transforms.Resize((224, 224)),
-    transforms.ToTensor()])
-
-transform_toTensor = transforms.Compose([transforms.ToTensor()])
-
 norm_layer = Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
 
 if args.models == 'Resnet50':
