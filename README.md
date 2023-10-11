@@ -39,14 +39,14 @@ You can run ```train.py``` directly.
 
 If you find this code and data useful, please consider citing the original work by authors:
 
-```
+
 @inproceedings{Chen2023AdvINN,
-  author={Chen, Zihan and Wang, Ziyue and Huang, Jun-Jie and Zhao, Wentao and Liu, Xiao and Guan, Dejian},
   title={Imperceptible Adversarial Attack via Invertible Neural Networks},
-  booktitle={Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI)}, 
-  year={2023},
-  pages={},
-  organization={AAAI},
-  doi={}
+  author={Chen, Zihan and Wang, Ziyue and Huang, Jun-jie and Zhao, Wentao and Liu, Xiao and Guan, Dejian},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={37},
+  number={1},
+  pages={414--424},
+  year={2023}
 }
-```
+
