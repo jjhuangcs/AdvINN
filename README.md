@@ -14,7 +14,7 @@ Adding perturbations via utilizing auxiliary gradient information or discarding 
 ## Requisites
 
 * PyTorch>=1.0
-* Python3
+* Python>=3.7
 * NVIDIA GPU + CUDA CuDNN
 
 ## Prepare data
@@ -39,7 +39,7 @@ You can run ```train.py``` directly.
 
 If you find this code and data useful, please consider citing the original work by authors:
 
-
+'''
 @inproceedings{Chen2023AdvINN,
   title={Imperceptible Adversarial Attack via Invertible Neural Networks},
   author={Chen, Zihan and Wang, Ziyue and Huang, Jun-jie and Zhao, Wentao and Liu, Xiao and Guan, Dejian},
@@ -49,4 +49,5 @@ If you find this code and data useful, please consider citing the original work 
   pages={414--424},
   year={2023}
 }
+'''
 
