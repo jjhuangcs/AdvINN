@@ -9,11 +9,11 @@ from args import get_args_parser
 args = get_args_parser()
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 if args.models == 'Resnet50':
-    model = resnet50 = models.resnet50(pretrained=True)
+    model = models.resnet50(pretrained=True)
 if args.models == 'Inception_v3':
-    model = resnet50 = models.inception_v3(pretrained=True)
+    model = models.inception_v3(pretrained=True)
 if args.models == 'Densenet121':
-    model = resnet50 = models.densenet121(pretrained=True)
+    model = models.densenet121(pretrained=True)
 
 with open('./util/imagenet_classes.txt') as f:
     classes = [line.strip() for line in f.readlines()]
